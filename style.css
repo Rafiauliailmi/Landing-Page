@@ -70,3 +70,18 @@ button:hover {
     color: white;
     text-align: center;
 }
+@media screen {
+    max-width: 600px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header {
+    margin-top: auto;
+}
+#nav-bar {
+    position: fixed;
+    top: 0;
+}
